@@ -4,7 +4,7 @@ body {
     color: white;
 }
 
-#navbar ul {
+#navbar {
     list-style-type: none;
     display: flex;
     color: #FF1E00;
@@ -13,15 +13,15 @@ body {
     font-size: large;
 }
 
-#navbar ul li {
+#navbar li {
     padding: 1rem;
 }
 
-#navbar ul li a {
+#navbar li a {
     text-decoration: none;
     color: #FF1E00;
 }
 
-#navbar ul li a:active {
+#navbar li a:active {
     background-color: #535353;
 }
