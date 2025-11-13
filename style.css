@@ -9,11 +9,19 @@ body {
     display: flex;
     color: #FF1E00;
     background-color: #15151e;
-    padding: 1rem;
     font-weight: bold;
     font-size: large;
 }
 
 #navbar ul li {
-    padding-right: 2rem;
+    padding: 1rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #FF1E00;
+}
+
+#navbar ul li a:active {
+    background-color: #535353;
 }
