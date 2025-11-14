@@ -34,7 +34,18 @@ body {
 
 .infobox {
     margin: 3rem;
-    box-shadow: 0 0 1rem 1rem #ff1e00;
-    border-radius: 1rem;
     padding: 1rem;
+    border: 0.2rem solid #ff1e00;
+    border-radius: 1rem;
+}
+
+.infobox button {
+    background-color: green;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.infobox button a {
+    text-decoration: none;
+    color: white;
 }
