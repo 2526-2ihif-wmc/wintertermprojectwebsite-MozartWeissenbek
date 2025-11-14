@@ -6,6 +6,12 @@ body {
 
 #navbar {
     list-style-type: none;
+    background-color: #15151e;
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    position: sticky;
+    top: 0;
 }
 
 #navbar li {
@@ -20,7 +26,6 @@ body {
     margin-right: 0.25rem;
     font-size: 1.2rem;
     font-weight: bold;
-
 }
 
 #navbar li a.active {
@@ -39,10 +44,19 @@ body {
     border-radius: 1rem;
 }
 
+img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    display: block;
+}
+
 .infobox button {
-    background-color: green;
+    background-color: #ff1e00;
     border-radius: 0.5rem;
     padding: 0.5rem;
+    border: none;
 }
 
 .infobox button a {
