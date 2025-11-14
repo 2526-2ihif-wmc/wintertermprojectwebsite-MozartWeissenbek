@@ -29,6 +29,14 @@ body {
     border-bottom: 0.2rem solid #ff1e00;
 }
 
-#header {
+.infobox {
+    display: inline-flex;
+    width: 40%;
+    border: 0.25rem solid #ff1e00;
+    border-radius: 1rem;
+    margin: 1rem;
+}
 
+.infobox h1 {
+    margin: 1rem;
 }
