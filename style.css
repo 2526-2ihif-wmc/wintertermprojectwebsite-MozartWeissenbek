@@ -44,6 +44,11 @@ body {
     border-radius: 1rem;
 }
 
+.infobox img {
+    float: right;
+    height: 8rem;
+}
+
 .infobox button {
     background-color: #ff1e00;
     border-radius: 0.5rem;
