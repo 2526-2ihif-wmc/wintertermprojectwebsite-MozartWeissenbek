@@ -58,7 +58,8 @@ body {
 
 .infobox img {
     float: right;
-    height: 12rem;
+    padding: 2rem;
+    height: 8rem;
 }
 
 .infobox button {
@@ -94,6 +95,14 @@ body {
 .infobox ul li a {
     text-decoration: none;
     color: white;
+}
+
+.infobox table {
+    margin: 2rem;
+}
+
+.infobox th {
+    border-bottom: 0.2rem solid lightgray;
 }
 
 #pagecontent {
