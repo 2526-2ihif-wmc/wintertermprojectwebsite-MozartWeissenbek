@@ -102,11 +102,11 @@ body {
 }
 
 #contentleft {
-    width:70%;
+    width: 75%;
 }
 
 #navright {
-    width: 30%;
+    width: 25%;
     position: sticky;
     top: 3rem;
     align-self: flex-start;
