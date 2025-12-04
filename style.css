@@ -99,6 +99,7 @@ body {
 
 .infobox table {
     margin: 2rem;
+    border-collapse: collapse;
 }
 
 .infobox th {
