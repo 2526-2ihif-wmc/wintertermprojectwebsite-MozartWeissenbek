@@ -43,13 +43,6 @@ body {
     background-color: #15151e;
     color: white;
     box-shadow: 0 0 0 0.4rem #15151e;
-    overflow: hidden;
-    max-height: 5rem;
-    transition: max-height 0.5s;
-}
-
-.infobox:hover {
-    max-height: 20rem;
 }
 
 .infobox h1 {
@@ -120,6 +113,17 @@ body {
 
 #contentleft {
     width: 75%;
+}
+
+#contentleft .infobox
+{
+    overflow: hidden;
+    max-height: 5rem;
+    transition: max-height 0.5s;
+}
+
+#contentleft .infobox:hover {
+    max-height: 20rem;
 }
 
 #navright {
