@@ -43,6 +43,7 @@ body {
     background-color: #15151e;
     color: white;
     box-shadow: 0 0 0 0.4rem #15151e;
+    scroll-margin-top: 6.2rem;
 }
 
 .infobox h1 {
@@ -98,12 +99,18 @@ body {
 }
 
 .infobox table {
-    margin: 2rem;
-    border-collapse: collapse;
+    margin: 2.2rem;
+    border: 0.2rem solid lightgray;
+    border-radius: 0.75rem;
+    border-collapse: separate;
+
 }
 
-.infobox th {
-    border-bottom: 0.2rem solid lightgray;
+.infobox tr td {
+    border: 0.2rem solid lightgray;
+    padding: 0.25rem;
+    padding-right: 0.75rem;
+    border-collapse: separate;
 }
 
 #pagecontent {
@@ -126,11 +133,23 @@ body {
     max-height: 20rem;
 }
 
+#contentleft .infobox:target {
+    max-height: 20rem;
+}
+
 #navright {
     width: 25%;
     position: sticky;
     top: 3rem;
     align-self: flex-start;
+}
+
+#navright ol {
+    list-style-type: none;
+}
+
+#navright ol {
+    padding: 0;
 }
 
 #navright a:hover {
