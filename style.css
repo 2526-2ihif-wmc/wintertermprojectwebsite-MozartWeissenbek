@@ -100,17 +100,15 @@ body {
 
 .infobox table {
     margin: 2.2rem;
-    border: 0.2rem solid lightgray;
-    border-radius: 0.75rem;
-    border-collapse: separate;
-
 }
 
-.infobox tr td {
-    border: 0.2rem solid lightgray;
-    padding: 0.25rem;
-    padding-right: 0.75rem;
-    border-collapse: separate;
+.infobox table td:nth-child(1) {
+    font-weight: bold;
+}
+
+.infobox table .tabbed {
+    padding-left: 1.5rem;
+    text-align: center;
 }
 
 #pagecontent {
