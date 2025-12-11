@@ -37,7 +37,7 @@ body {
 
 .infobox {
     margin: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     border: 0.2rem solid #ff1e00;
     border-radius: 2rem;
     background-color: #15151e;
@@ -128,10 +128,6 @@ body {
 }
 
 #contentleft .infobox:hover {
-    max-height: 20rem;
-}
-
-#contentleft .infobox:target {
     max-height: 20rem;
 }
 
