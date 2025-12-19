@@ -15,6 +15,7 @@ body {
 
 #navbar li {
     display: inline;
+    margin: 0;
 }
 
 #navbar li a {
@@ -24,6 +25,7 @@ body {
     padding: 0.5rem;
     font-size: 1.25rem;
     font-weight: bold;
+    margin: 0;
 }
 
 #navbar li a.active {
@@ -167,17 +169,68 @@ body {
 
 #podium {
     width: 100%;
+    height: 150%;
     text-align: center;
-    align-items: center;
+    border-bottom: 0.2rem solid #ff1e00;
+    margin: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
 }
 
 #podium div {
-    display: inline-block;
-    width: 30%;
-    height: 100%;
+    display: inline;
+    width: 20%;
+    height: 200%;
+    background: linear-gradient(to bottom, rgba(21, 21, 30, 0.8), rgba(21, 21, 30, 0.3));
+    border-radius: 2rem 2rem 0 0;
+}
+
+#podium h1 {
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#podium div:nth-child(1) {
+    padding-bottom: 7.5rem;
+    color: silver;
+}
+
+#podium div:nth-child(2) {
+    padding-bottom: 5rem;
+    color: gold;
+}
+
+#podium div:nth-child(3) {
+    color: #cd7f32;
 }
 
 #podium div img {
-    width: 50%;
-    border-bottom: #ff1e00 0.1rem solid;
+    margin-top: 2rem;
+    max-width: 75%;
+    border-radius: 2rem;
+    background-color: #555555;
+}
+
+#leaderboard3-- {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#leaderboard3-- p {
+    font-size: 1rem;
+    background-color: rgba(55, 55, 55, 0.5);
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #15151e;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
 }
