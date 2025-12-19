@@ -127,6 +127,10 @@ body {
     flex-direction: row;
 }
 
+#pagecontent > h1 {
+    color: #15151e;
+}
+
 #contentleft {
     width: 75%;
 }
@@ -159,4 +163,21 @@ body {
 
 #navright a:hover {
     color: #ff1e00;
+}
+
+#podium {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+#podium div {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+}
+
+#podium div img {
+    width: 50%;
+    border-bottom: #ff1e00 0.1rem solid;
 }
