@@ -185,6 +185,7 @@ body {
     align-items: flex-end;
     justify-content: center;
     gap: 1rem;
+    font-size: 1.25rem;
 }
 
 #podium div {
