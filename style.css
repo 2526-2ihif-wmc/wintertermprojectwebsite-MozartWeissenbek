@@ -168,10 +168,13 @@ body {
 
 #navright ol {
     list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.51rem;
+    margin-right: 1rem;
 }
 
-#navright ol {
-    padding: 0;
+#navright li {
+    padding-bottom: 0.125rem;
 }
 
 #navright a:hover {
