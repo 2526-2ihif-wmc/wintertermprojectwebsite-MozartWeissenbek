@@ -257,11 +257,44 @@ body {
     display: block;
 }
 
-.banner img:last-child {
+.banner img:nth-child(2) {
     position: absolute;
     top: 64%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 20%;
     height: auto;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    background-color: #ff1e00;
+    padding: 0.5rem;
+    border-radius: 0.75rem 0.75rem 0.75rem 0;
+    border-right: 0.2rem solid #15151e;
+    border-top: 0.2rem solid #15151e;
+}
+
+.banner p:nth-child(3) {
+    position: absolute;
+    top: 27%;
+    left: 18%;
+}
+
+.banner p:nth-child(4) {
+    position: absolute;
+    top: 26%;
+    left: 46%;
+}
+
+.banner p:nth-child(5) {
+    position: absolute;
+    top: 26.5%;
+    left: 66.5%;
+}
+
+.banner p:nth-child(6) {
+    position: absolute;
+    top: 26.7%;
+    left: 88%;
 }
