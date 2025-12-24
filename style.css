@@ -128,6 +128,17 @@ body {
 #pagecontent {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+#pagecontent > h1 {
+    background-color: rgba(255, 30, 0, 0.8);
+    color: #15151e;
+    padding: 0.75rem;
+    border-bottom: 0.25rem solid #15151e;
+    border-radius: 0 0 1rem 1rem;
+    font-size: 1.75rem;
+    margin:0;
 }
 
 #contentleft {
@@ -232,8 +243,9 @@ body {
     width: 100%;
     height: 65vh;
     overflow: hidden;
-    border-bottom: 0.25rem solid #ff1e00;
-    border-radius: 0 0 5rem 4rem;
+    border-bottom: 0.25rem solid rgba(255, 30, 0, 0.8);
+
+    border-radius: 0 0 5rem 5rem;
 }
 
 .banner #main {
