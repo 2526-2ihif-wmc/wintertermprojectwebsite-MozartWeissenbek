@@ -84,12 +84,16 @@ body {
 }
 
 .infobox table td:nth-child(1) {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .infobox table .tabbed {
     padding-left: 1.5rem;
     text-align: center;
+}
+
+.infobox table td {
+    padding-right: 0.75rem;
 }
 
 .infobox:target {
