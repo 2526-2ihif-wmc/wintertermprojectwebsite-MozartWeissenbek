@@ -154,6 +154,10 @@ body {
     color: white;
 }
 
+#contentleft > p > strong {
+    text-decoration: underline;
+}
+
 #contentleft a {
     text-decoration: none;
     color: #ff1e00;
