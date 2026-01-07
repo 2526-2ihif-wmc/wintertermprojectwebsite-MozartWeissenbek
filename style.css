@@ -10,6 +10,7 @@ body {
     background-color: #15151e;
     margin: 0;
     padding: 0.75rem;
+    padding-bottom: 0.95rem;
     position: sticky;
     top: 0;
 }
@@ -17,6 +18,7 @@ body {
 #navbar li {
     display: inline;
     margin: 0;
+    padding: 0;
 }
 
 #navbar li a {
@@ -27,6 +29,7 @@ body {
     font-size: 1.25rem;
     font-weight: bold;
     margin: 0;
+    border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
 }
 
 #navbar li a.active {
@@ -42,9 +45,9 @@ body {
     margin: 2rem;
     border: 0.2rem solid #ff1e00;
     border-radius: 2rem;
-    background-color: rgba(21, 21, 30, 0.75);
+    background-color: rgba(21, 21, 30, 0.85);
     color: white;
-    box-shadow: 0 0 0 0.4rem rgba(21, 21, 30, 0.75);
+    box-shadow: 0 0 0 0.4rem rgba(21, 21, 30, 0.85);
     scroll-margin-top: 6.2rem;
     transition: background-color 0.5s ease;
 }
@@ -247,7 +250,7 @@ body {
 
 #leaderboard3-- p {
     font-size: 1.25rem;
-    background-color: rgba(85, 85, 85, 0.90);
+    background-color: rgba(85, 85, 85, 0.95);
     padding: 0.5rem;
     border-radius: 0.625rem;
     border: 0.125rem solid #15151e;
